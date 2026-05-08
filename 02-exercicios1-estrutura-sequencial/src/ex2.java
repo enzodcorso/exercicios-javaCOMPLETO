@@ -14,6 +14,8 @@ public class ex2 {
 		
 		System.out.println("A=" + area);
 		
+		sc.close();
+		
 	}
 
 }

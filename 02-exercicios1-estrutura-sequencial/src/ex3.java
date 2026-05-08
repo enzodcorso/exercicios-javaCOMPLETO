@@ -14,6 +14,8 @@ public class ex3 {
 		
 		System.out.println("DIFERENCA = " + DIFERENCA);
 		
+		sc.close();
+		
 	}
 
 }

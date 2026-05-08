@@ -28,6 +28,8 @@ public class ex6 {
 		//e)
 		System.out.printf("RETANGULO: %.3f%n", A * B);
 		
+		sc.close();
+		
 	}
 
 }

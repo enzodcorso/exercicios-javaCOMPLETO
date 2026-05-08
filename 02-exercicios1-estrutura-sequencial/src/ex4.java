@@ -16,6 +16,8 @@ public class ex4 {
 		System.out.println("NUMBER = " + numero);
 		System.out.println("SALARY = U$ " + SALARIO);
 		
+		sc.close();
+		
 	}
 
 }

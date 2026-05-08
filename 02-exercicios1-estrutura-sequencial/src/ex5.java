@@ -8,17 +8,19 @@ public class ex5 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int codPeca1 = sc.nextInt();
+		sc.nextInt();
 		int qntPeca1 = sc.nextInt();
 		double vlrPeca1 = sc.nextDouble();
 		double peca1 = qntPeca1 * vlrPeca1;
-		int codPeca2 = sc.nextInt();
+		sc.nextInt();
 		int qntPeca2 = sc.nextInt();
 		double vlrPeca2 = sc.nextDouble();
 		double peca2 = qntPeca2 * vlrPeca2;
 		double total = peca1 + peca2;
 		
 		System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
+		
+		sc.close();
 		
 	}
 

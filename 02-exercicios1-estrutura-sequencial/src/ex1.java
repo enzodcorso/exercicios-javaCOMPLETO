@@ -12,6 +12,8 @@ public class ex1 {
 		
 		System.out.println("SOMA = " + soma);
 		
+		sc.close();
+		
 	}
 
 }
